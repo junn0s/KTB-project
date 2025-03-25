@@ -7,4 +7,5 @@
 # Aiven SSL 인증서
 ca.pem
 
-.DS_Store/
+# macOS 시스템 파일
+.DS_Store
