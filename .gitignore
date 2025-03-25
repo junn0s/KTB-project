@@ -1,0 +1,8 @@
+# Kaggle credentials
+.kaggle/
+
+# Mac Pages document
+보고서.pages
+
+# Aiven SSL 인증서
+ca.pem
