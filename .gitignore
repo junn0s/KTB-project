@@ -6,3 +6,5 @@
 
 # Aiven SSL 인증서
 ca.pem
+
+.DS_Store
