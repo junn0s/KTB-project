@@ -6,7 +6,7 @@
 
 ## Overview
 
-본 프로젝트는 **36가지 과일 및 채소 이미지 분류**를 목표로, 다양한 CNN 기반 모델의 성능을 비교하고 효율적인 모델을 선정하는 개인 연구 프로젝트입니다. 
+이 프로젝트는 **36가지 과일 및 채소 이미지 분류**를 목표로 다양한 CNN 기반 모델의 성능을 비교하고 효율적인 모델을 선정하는 개인 연구 프로젝트입니다
 
 - **목표**: 식재료 자동 인식 기능을 통해 요리 레시피 추천 앱에서의 사용자 입력을 최소화
 - **데이터셋**: [Kaggle - Fruits and Vegetables Image Recognition](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition) (총 3,825장)
@@ -52,7 +52,7 @@
 
 ##  Visualization
 
-각 모델의 학습 정확도 및 손실, 검증 정확도는 Streamlit 대시보드로 시각화하였습니다.
+각 모델의 학습 정확도 및 손실, 검증 정확도는 Streamlit 대시보드로 시각화하였습니다
 
 ![모델 성능 시각화](/images/mobilenet_train_val_acc_db.png)  
 <sub>Figure: MobileNetV2</sub>
@@ -62,11 +62,24 @@
 ##  Project Structure
 
 ```
-📁 Milo-Project-AI/
+📁 KTB-project/
 ├── README.md
-├── fruit_veg_cnn_comparison.ipynb
-└── images/
-    └── mobilenet_train_val_acc_db.png
+├── .gitignore
+├── download_kaggle_data.py
+├── mysql_table.sql
+├── streamlit_cnn.py
+├── MobileNet_V2.py
+├── ResNet50.py
+├── ShuffleNet_0.5.py
+├── VGG16.py
+├── simpleCNN.py
+├── images/
+│   └── mobilenet_train_val_acc_db.png
+├── fruit-and-vegetable-image/
+│   ├── test/
+│   └── train/
+│   └── validation/
+└── 개인 프로젝트 보고서(milo.park).pdf
 ```
 
 ---
@@ -80,4 +93,4 @@
 
 ---
 
->  Developed by milo.park (박준수) | March 2025
+>  Developed by milo | March 2025
